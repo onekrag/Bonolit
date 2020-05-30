@@ -1,9 +1,10 @@
-@import "font.css";
-body {
+* {
   box-sizing: border-box;
+}
+body {
   margin: 0;
   padding: 0;
-  font-family: 'Geometria', sans-serif;
+  font-family: 'Geometria';
   font-size: 16px;
   color: #222222;
   background-color: #F7F8FA;
@@ -60,6 +61,8 @@ span {
 }
 .header__section {
   overflow: hidden;
+  padding-top: 100px;
+  min-height: 700px;
   display: flex;
 }
 .header__content {
@@ -67,14 +70,13 @@ span {
 }
 .header__body {
   width: 50%;
-  min-height: 720px;
+  min-height: 600px;
   padding-right: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 .header__bg {
-  min-height: 720px;
   flex: 0 0 50%;
   transform: translate(-100%);
 }
