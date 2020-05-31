@@ -56,7 +56,8 @@ h3 {
   color: #222222;
 }
 .header__phone-link,
-.header__email-link {
+.header__email-link,
+.contacts__address-link {
   font-weight: 700;
 }
 .header__phone-descr,
@@ -330,6 +331,71 @@ h3 {
 }
 .offer__conten-btn:active {
   background-color: #FF840F;
+}
+.works {
+  padding: 60px 0;
+  min-height: 600px;
+}
+.works__content {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.works__item-title {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 24px;
+}
+.works__item-price {
+  color: #ffffff;
+  background-color: #FF7D01;
+  padding: 5px 5px 4px 5px;
+}
+.works__btn {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: 240px;
+  height: 67px;
+  color: #FF7D01;
+  border: 2px solid #FF7D01;
+  font-weight: 500;
+  line-height: 64px;
+}
+.works__btn:hover {
+  background-color: #FF7D01;
+  color: #ffffff;
+}
+.contacts {
+  padding: 60px 0;
+}
+.contacts__content {
+  display: flex;
+  gap: 100px;
+  margin-top: 40px;
+}
+.contacts__address {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.contacts__address-btn {
+  display: block;
+  text-align: center;
+  width: 240px;
+  height: 67px;
+  color: #FF7D01;
+  border: 2px solid #FF7D01;
+  font-weight: 500;
+  line-height: 64px;
+}
+.contacts__address-btn:hover {
+  background-color: #FF7D01;
+  color: #ffffff;
 }
 @media screen and (max-width: 1200px) {
   .main__container {

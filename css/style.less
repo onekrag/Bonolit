@@ -82,7 +82,8 @@ h3 {
 }
 
 .header__phone-link,
-.header__email-link {
+.header__email-link,
+.contacts__address-link {
     font-weight: 700;
 }
 
@@ -424,6 +425,85 @@ h3 {
 
     &:active {
         background-color: #FF840F;
+    }
+}
+
+
+// =====  works  ======
+.works {
+    padding: 60px 0;
+    min-height: 600px;
+}
+
+.works__content {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.works__item-title {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.works__item-price {
+    color: #ffffff;
+    background-color: @primary_color;
+    padding: 5px 5px 4px 5px;
+}
+
+.works__btn {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 240px;
+    height: 67px;
+    color: @primary_color;
+    border: 2px solid @primary_color;
+    font-weight: 500;
+    line-height: 64px;
+
+    &:hover {
+        background-color: @primary_color;
+        color: #ffffff;
+    }
+}
+
+
+// =====  contacts  ======
+
+
+.contacts{
+    padding: 60px 0;
+}
+.contacts__content{
+    display: flex;
+    gap: 100px;
+    margin-top: 40px;
+}
+.contacts__address{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contacts__address-btn {
+    display: block;
+    text-align: center;
+    width: 240px;
+    height: 67px;
+    color: @primary_color;
+    border: 2px solid @primary_color;
+    font-weight: 500;
+    line-height: 64px;
+
+    &:hover {
+        background-color: @primary_color;
+        color: #ffffff;
     }
 }
 
