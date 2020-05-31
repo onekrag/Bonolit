@@ -18,7 +18,6 @@ body {
     font-family: @primary_fonts;
     font-size: 16px;
     color: @secondary_color;
-    background-color: #F7F8FA;
 }
 
 h2 {
@@ -105,6 +104,7 @@ h3 {
     padding-top: 100px;
     min-height: 700px;
     display: flex;
+    background-color: #F7F8FA;
 }
 
 .header__content {
@@ -267,9 +267,9 @@ h3 {
 
 // =====  clients  ======
 
-.clients{
-background-color: #fff;
-padding: 60px 0;
+.clients {
+    background-color: #fff;
+    padding: 60px 0;
 }
 
 .owl-nav {
@@ -284,17 +284,32 @@ padding: 60px 0;
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: @secondary_color;
+    background: #fff;
     box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.1);
-    span{
+
+    span {
         color: #979797;
-        &:hover{
+
+        &:hover {
             color: @secondary_color;
         }
     }
 }
 
 
+// =====  reviews  ======
+
+.reviews {
+    padding: 60px 0;
+
+    .owl-carousel .owl-dots.disabled,
+    .owl-carousel .owl-nav.disabled {
+        display: flex;
+        justify-content: space-between;
+        padding: 3px;
+        transform: translateY(-190px);
+    }
+}
 
 
 // =====  media  ======
