@@ -11,4 +11,10 @@ $(document).ready(function () {
         $('body').toggleClass('lock');
       });  
 
+      $(".owl-carousel").owlCarousel({
+        autoWidth: true,
+        nav: true,
+        loop: true,
+      });
+
 });
