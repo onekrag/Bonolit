@@ -289,6 +289,48 @@ h3 {
 .reviews__content-item p {
   color: #979797;
 }
+.offer {
+  height: 700px;
+  background: url(../img/bg_5.png) right center no-repeat;
+  background-color: #F7F8FA;
+  background-position-x: 80%;
+  background-position-y: 100%;
+}
+.offer__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 535px;
+  min-height: 700px;
+}
+.offer__content-title {
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 60px;
+}
+.offer__content-title span {
+  font-weight: bold;
+}
+.offer__content-descr {
+  font-size: 20px;
+  line-height: 32px;
+}
+.offer__conten-btn {
+  margin-top: 20px;
+  font-weight: 500;
+  width: 240px;
+  height: 67px;
+  color: #ffffff;
+  background-color: #FF7D01;
+  line-height: 64px;
+  text-align: center;
+}
+.offer__conten-btn:hover {
+  background-color: #F17600;
+}
+.offer__conten-btn:active {
+  background-color: #FF840F;
+}
 @media screen and (max-width: 1200px) {
   .main__container {
     margin: 0 auto;
