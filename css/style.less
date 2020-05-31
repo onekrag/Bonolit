@@ -484,11 +484,12 @@ h3 {
 
 .contacts__content {
     display: flex;
-    gap: 100px;
+    // gap: 100px;
     margin-top: 40px;
 }
 
 .contacts__address {
+    margin-left: 100px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -531,7 +532,7 @@ h3 {
 
 .footer__menu {
     display: flex;
-    gap: 30px;
+    // gap: 30px;
 }
 
 .footer__menu-link,
@@ -540,7 +541,11 @@ h3 {
         color: @secondary_color;
     }
 }
-.footer__privacy{
+.footer__menu-link + .footer__menu-link{
+    margin-left: 30px;
+}
+
+.footer__privacy {
     text-decoration: underline;
 }
 
