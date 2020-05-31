@@ -478,19 +478,22 @@ h3 {
 // =====  contacts  ======
 
 
-.contacts{
+.contacts {
     padding: 60px 0;
 }
-.contacts__content{
+
+.contacts__content {
     display: flex;
     gap: 100px;
     margin-top: 40px;
 }
-.contacts__address{
+
+.contacts__address {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
+
 .contacts__address-btn {
     display: block;
     text-align: center;
@@ -505,6 +508,40 @@ h3 {
         background-color: @primary_color;
         color: #ffffff;
     }
+}
+
+
+
+// =====  footer  ======
+
+.footer {
+    background-color: #F7F8FA;
+    height: 80px;
+}
+
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    color: #979797;
+    line-height: 64px;
+
+}
+
+.footer__menu {
+    display: flex;
+    gap: 30px;
+}
+
+.footer__menu-link,
+.footer__privacy {
+    &:hover {
+        color: @secondary_color;
+    }
+}
+.footer__privacy{
+    text-decoration: underline;
 }
 
 

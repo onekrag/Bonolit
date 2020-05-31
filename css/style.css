@@ -397,6 +397,29 @@ h3 {
   background-color: #FF7D01;
   color: #ffffff;
 }
+.footer {
+  background-color: #F7F8FA;
+  height: 80px;
+}
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+  color: #979797;
+  line-height: 64px;
+}
+.footer__menu {
+  display: flex;
+  gap: 30px;
+}
+.footer__menu-link:hover,
+.footer__privacy:hover {
+  color: #222222;
+}
+.footer__privacy {
+  text-decoration: underline;
+}
 @media screen and (max-width: 1200px) {
   .main__container {
     margin: 0 auto;
