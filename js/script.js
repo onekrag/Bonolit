@@ -18,6 +18,7 @@ $(document).ready(function () {
     dots: false,
     margin: 50,
   });
+
   $(".slide__reviews").owlCarousel({
     autoWidth: true,
     nav: true,
@@ -29,22 +30,30 @@ $(document).ready(function () {
     // videoHeight: ,
     // videoWidth: ,
     // center: true,
-    responsive:{
-      480:{
-          items:1,          
+    responsive: {
+      480: {
+        items: 1,
       },
-      640:{
-          items:1,          
+      640: {
+        items: 1,
       },
-      960:{
-          items:1,  
-          center: true,        
+      960: {
+        items: 1,
+        center: true,
       },
-      1200:{
-          items:1,
-                    
+      1200: {
+        items: 1,
+
       }
-  },
+    },
+  });
+
+  $(".popap__form-slide").owlCarousel({
+    autoWidth: true,
+    nav: true,
+    loop: true,
+    dots: false,
+    margin: 50,
   });
 
 });
