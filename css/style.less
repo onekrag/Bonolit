@@ -263,7 +263,7 @@ h3 {
     display: block;
     margin: 0 auto;
     height: 67px;
-    width: 300px;
+    width: 100%;
     border: 2px solid @primary_color;
     text-align: center;
     color: @primary_color;
@@ -313,11 +313,11 @@ h3 {
 }
 
 .owl-prev {
-    transform: translateX(-25px);
+    transform: translateX(-15px);
 }
 
 .owl-next {
-    transform: translateX(25px);
+    transform: translateX(15px);
 }
 
 
@@ -754,6 +754,9 @@ h3 {
 
     .reviews__content {
         grid-template-columns: repeat(2, 1fr);
+    }
+    .owl-nav{
+        transform: translateY(-190px);
     }
 
     .offer {

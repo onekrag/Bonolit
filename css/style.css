@@ -200,7 +200,7 @@ h3 {
   display: block;
   margin: 0 auto;
   height: 67px;
-  width: 300px;
+  width: 100%;
   border: 2px solid #FF7D01;
   text-align: center;
   color: #FF7D01;
@@ -242,10 +242,10 @@ h3 {
   color: #222222;
 }
 .owl-prev {
-  transform: translateX(-25px);
+  transform: translateX(-15px);
 }
 .owl-next {
-  transform: translateX(25px);
+  transform: translateX(15px);
 }
 .reviews .owl-carousel .owl-dots.disabled,
 .reviews .owl-carousel .owl-nav.disabled {
@@ -568,6 +568,9 @@ h3 {
   }
   .reviews__content {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .owl-nav {
+    transform: translateY(-190px);
   }
   .offer {
     background-position-x: 330%;
