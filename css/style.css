@@ -162,7 +162,7 @@ h3 {
 .product__item {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   min-height: 530px;
   max-width: 370px;
   padding: 25px;
@@ -197,7 +197,7 @@ h3 {
 }
 .product__item-btn {
   display: block;
-  margin: 0 auto;
+  margin-top: auto;
   height: 67px;
   width: 100%;
   border: 2px solid #FF7D01;
