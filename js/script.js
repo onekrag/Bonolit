@@ -22,19 +22,13 @@ $(document).ready(function () {
   $(".slide__reviews").owlCarousel({
     autoWidth: true,
     nav: true,
-    loop: true,
+    // loop: true,
+    // merge:true,
     dots: false,
     margin: 30,
     video: true,
     videoHeight: 320,
-    videoWidth: 570,
-    // merge: true,
-    // lazyLoad: true,
-    // autoWidth: true,
-    // video: true,
-    // videoHeight: ,
-    // videoWidth: ,
-    // center: true,
+    videoWidth: 570,    
     responsive: {
       480: {
         items: 1,
@@ -61,7 +55,7 @@ $(document).ready(function () {
         videoWidth: 470,
       },
       1600: {
-        items: 1,
+        items: 2,
         videoHeight: 320,
         videoWidth: 570,
       },

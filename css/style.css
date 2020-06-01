@@ -679,6 +679,16 @@ button:disabled {
   .reviews__content {
     grid-template-columns: repeat(2, 1fr);
   }
+  .reviews .owl-carousel .owl-stage {
+    display: flex;
+    flex-direction: column;
+  }
+  .reviews .owl-carousel.owl-drag .owl-item {
+    margin-bottom: 30px;
+  }
+  .reviews .owl-carousel .owl-nav.disabled {
+    display: none;
+  }
   .offer {
     background-position-x: 330%;
     background-position-y: 93%;
