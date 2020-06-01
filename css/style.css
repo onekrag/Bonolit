@@ -478,7 +478,7 @@ h3 {
   min-height: 530px;
 }
 .popap__form-content .popap__form-input {
-  width: 100%;
+  width: 90%;
   margin: 40px 60px;
   border-top: none;
   border-left: none;
@@ -488,13 +488,16 @@ h3 {
 .callback_checkbox {
   margin-bottom: 40px;
 }
+.callback_checkbox a {
+  text-decoration: underline;
+}
 button:disabled {
   opacity: 0.5;
 }
 .popap__slide-titl,
 .popap__form-title {
   font-size: 24px;
-  margin: 0 110px;
+  margin: 0 130px;
   font-weight: normal;
   text-align: center;
 }
