@@ -57,7 +57,9 @@ $(document).ready(function () {
   });
 
   $('.popup__open').magnificPopup({
-    type: 'inline'
+    type: 'inline',
+    removalDelay: 100,
+    mainClass: 'mfp-fade'
   });
 
 });
