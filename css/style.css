@@ -291,6 +291,7 @@ h3 {
 .reviews__content-item {
   padding: 30px;
   background-color: #F7F8FA;
+  min-height: 190px;
 }
 .reviews__content-item h3 {
   font-size: 18px;
