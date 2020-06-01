@@ -27,7 +27,9 @@ h3 {
   min-width: 300px;
 }
 .header__top {
+  position: relative;
   background-color: #fff;
+  box-shadow: 0px 5px 30px rgba(213, 213, 213, 0.25);
 }
 .header__top .main__container {
   min-height: 70px;
@@ -102,15 +104,18 @@ h3 {
 .header__content-price {
   font-size: 52px;
   font-weight: bold;
+  line-height: 50px;
 }
 .header__content-title {
   font-size: 52px;
-  font-weight: 500;
-  line-height: 50px;
+  font-weight: 400;
+  line-height: 80px;
+  margin-bottom: 15px;
 }
 .header__content-descr {
   font-size: 20px;
   font-weight: 400;
+  line-height: 33px;
 }
 .header__content-btn {
   font-weight: 500;
@@ -164,10 +169,10 @@ h3 {
   min-height: 530px;
   max-width: 370px;
   padding: 25px;
-  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 5px 30px rgba(213, 213, 213, 0.25);
 }
 .product__item:hover {
-  box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 5px 30px rgba(213, 213, 213, 0.5);
 }
 .product__item-img {
   min-height: 200px;
@@ -224,11 +229,11 @@ h3 {
   height: 50px;
   border-radius: 50%;
   background: #fff;
-  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 5px 30px rgba(162, 162, 162, 0.25);
 }
 .owl-prev:hover,
 .owl-next:hover {
-  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 5px 30px rgba(162, 162, 162, 0.25);
 }
 .owl-prev span,
 .owl-next span {
@@ -265,6 +270,10 @@ h3 {
   height: 50px;
   border-radius: 50%;
   background-color: #fff;
+  box-shadow: 0px 5px 30px rgba(162, 162, 162, 0.25);
+}
+.reviews__video-btn:hover {
+  box-shadow: 0px 5px 30px rgba(162, 162, 162, 0.5);
 }
 .reviews__video-btn span {
   display: block;
@@ -290,6 +299,7 @@ h3 {
 }
 .reviews__content-item p {
   color: #979797;
+  line-height: 26px;
 }
 .offer {
   height: 700px;
@@ -449,48 +459,48 @@ h3 {
     background-color: #fff;
     display: block;
     position: absolute;
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     z-index: 10;
     right: 15%;
-    top: 14px;
+    top: 10px;
     cursor: pointer;
-    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 30px rgba(162, 162, 162, 0.25);
   }
   .header__burger span {
     position: absolute;
     background-color: #FF7D01;
-    left: 8px;
-    width: 50%;
+    left: 17px;
+    width: 34%;
     height: 2px;
-    top: 14px;
+    top: 24px;
   }
   .header__burger::before,
   .header__burger::after {
     content: '';
     background-color: #FF7D01;
     position: absolute;
-    width: 50%;
+    width: 34%;
     height: 2px;
-    left: 8px;
+    left: 17px;
     transition: all 0.3s ease 0s;
   }
   .header__burger::before {
-    top: 8px;
+    top: 17px;
   }
   .header__burger::after {
-    bottom: 8px;
+    bottom: 17px;
   }
   .header__burger.active span {
     transform: scale(0);
   }
   .header__burger.active::before {
     transform: rotate(45deg);
-    top: 14.5px;
+    top: 24px;
   }
   .header__burger.active::after {
     transform: rotate(-45deg);
-    bottom: 13.5px;
+    bottom: 24px;
   }
   .header__menu {
     display: flex;
