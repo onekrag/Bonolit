@@ -347,9 +347,10 @@ h3 {
 .works__content {
   margin-top: 40px;
   margin-bottom: 40px;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
   align-items: center;
-  justify-content: space-between;
 }
 .works__item-title {
   display: block;
@@ -440,6 +441,10 @@ h3 {
   .header__bg {
     flex: 0 0 53%;
   }
+  .offer {
+    background-size: 74%;
+    background-position-x: 170%;
+  }
   .product__catalog {
     grid-template-columns: 1fr 1fr;
   }
@@ -463,7 +468,7 @@ h3 {
     width: 50px;
     height: 50px;
     z-index: 10;
-    right: 15%;
+    right: 19%;
     top: 10px;
     cursor: pointer;
     box-shadow: 0px 5px 30px rgba(162, 162, 162, 0.25);
@@ -537,6 +542,28 @@ h3 {
   .header__content-price,
   .header__content-title {
     font-size: 42px;
+  }
+  .header__content-descr {
+    font-size: 16px;
+  }
+  .header__section {
+    padding: 0;
+    min-height: 605px;
+  }
+  .header__bg {
+    transform: translate(-100%);
+  }
+  .reviews__content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .offer {
+    background-position-x: 330%;
+    background-position-y: 93%;
+    background-size: 89%;
+  }
+  .works__content {
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 40px;
   }
 }
 @media screen and (max-width: 640px) {

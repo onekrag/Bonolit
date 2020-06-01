@@ -23,7 +23,26 @@ $(document).ready(function () {
     nav: true,
     loop: true,
     dots: false,
-    margin: 50,
+    margin: 30,
+    // autoWidth: true,
+    // video: true,
+    // videoHeight: ,
+    // videoWidth: ,
+    center: true,
+    responsive:{
+      480:{
+          items:1,          
+      },
+      640:{
+          items:1,          
+      },
+      960:{
+          items:2,          
+      },
+      1200:{
+          items:2,          
+      }
+  },
   });
 
 });
