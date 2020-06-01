@@ -608,6 +608,7 @@ h3 {
     margin: 0 auto;
     max-width: 485px;
     min-width: 300px;
+    padding: 0 15px;
   }
   .product__catalog {
     grid-template-columns: 1fr;
@@ -618,15 +619,53 @@ h3 {
   .header__top .main__container {
     grid-template-columns: 2fr 4fr;
   }
-  .header__section {
-    flex-wrap: wrap;
-  }
   .header__bg {
-    flex: 1 100%;
-    transform: translate(0, -25%);
+    flex: 0 0 59%;
+    transform: translate(-65%);
   }
   .header__body {
     width: 100%;
+  }
+  .reviews__content {
+    grid-template-columns: 1fr;
+  }
+  .offer__content-title {
+    font-size: 38px;
+  }
+  .offer__content-descr {
+    font-size: 18px;
+  }
+  .works__content {
+    grid-template-columns: 1fr;
+  }
+  .works__content img {
+    width: 100%;
+  }
+  .works__item {
+    position: relative;
+  }
+  .works__item-title {
+    display: inline-block;
+  }
+  .works__item-price {
+    position: absolute;
+    right: 0;
+    bottom: 3%;
+  }
+  .contacts__address {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .header__email-link {
+    grid-column-start: 2;
+    grid-row-start: 1;
+  }
+  .header__phone-link {
+    grid-column-start: 2;
+    grid-row-start: 2;
+  }
+  .contacts__address-btn {
+    transform: translate(-50%);
   }
 }
 @media screen and (max-width: 480px) {
