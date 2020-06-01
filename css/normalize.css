@@ -173,6 +173,7 @@ li {
 }
 button {
   border: none;
+  outline: none !important;
 }
 button,
 input,
