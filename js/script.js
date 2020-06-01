@@ -56,4 +56,8 @@ $(document).ready(function () {
     margin: 50,
   });
 
+  $('.popup__open').magnificPopup({
+    type: 'inline'
+  });
+
 });
