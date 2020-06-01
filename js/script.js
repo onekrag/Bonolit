@@ -25,6 +25,11 @@ $(document).ready(function () {
     loop: true,
     dots: false,
     margin: 30,
+    video: true,
+    videoHeight: 320,
+    videoWidth: 570,
+    // merge: true,
+    // lazyLoad: true,
     // autoWidth: true,
     // video: true,
     // videoHeight: ,
@@ -33,18 +38,34 @@ $(document).ready(function () {
     responsive: {
       480: {
         items: 1,
+        nav: false,
+        videoHeight: 320,
+        videoWidth: 315,
       },
       640: {
         items: 1,
+        nav: false,
+        videoHeight: 320,
+        videoWidth: 480,
       },
       960: {
         items: 1,
-        center: true,
+        nav: false,
+        videoHeight: 320,
+        videoWidth: 670,
       },
       1200: {
         items: 1,
+        nav: false,
+        videoHeight: 320,
+        videoWidth: 470,
+      },
+      1600: {
+        items: 1,
+        videoHeight: 320,
+        videoWidth: 570,
+      },
 
-      }
     },
   });
 
