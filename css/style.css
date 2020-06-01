@@ -24,7 +24,6 @@ h3 {
   box-sizing: border-box;
   margin: 0 auto;
   max-width: 1200px;
-  padding: 0 15px;
   min-width: 300px;
 }
 .header__top {
@@ -553,7 +552,6 @@ button:disabled {
   .main__container {
     margin: 0 auto;
     max-width: 970px;
-    padding: 0 15px;
     min-width: 300px;
   }
   .header__bg {
@@ -724,7 +722,9 @@ button:disabled {
     margin: 0 auto;
     max-width: 485px;
     min-width: 300px;
-    padding: 0 15px;
+  }
+  .product .main__container {
+    max-width: 340px;
   }
   .product__catalog {
     grid-template-columns: 1fr;
@@ -790,6 +790,18 @@ button:disabled {
   .header__menu {
     width: 50%;
   }
+  .popap__slide-content,
+  .popap__form-content {
+    width: 100%;
+  }
+  .popap__slide-titl,
+  .popap__form-title {
+    margin: 0;
+  }
+  .popap__slide-btn,
+  .popap__form-btn {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 480px) {
   .main__container {
@@ -822,6 +834,13 @@ button:disabled {
   }
   .product__item {
     padding: 20px;
+  }
+  .product__item-title {
+    display: block;
+  }
+  .product__item-title h3 {
+    display: block;
+    line-height: 38px;
   }
   .product__item-btn {
     width: 100%;
@@ -884,5 +903,9 @@ button:disabled {
   .owl-next,
   .owl-prev {
     transform: translateX(0);
+  }
+  .popap__slide-btn,
+  .popap__form-btn {
+    font-size: 14px;
   }
 }
