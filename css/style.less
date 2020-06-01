@@ -840,9 +840,12 @@ h3 {
         grid-template-columns: 1fr;
     }
 
-    .owl-nav {
-        transform: translateY(-190px);
+    .reviews {
+        .owl-nav {
+            transform: translateY(-190px);
+        }
     }
+
 
     .offer__content-title {
         font-size: 38px;
@@ -911,6 +914,10 @@ h3 {
         max-width: 315px;
         min-width: 300px;
         // padding: 0 15px;
+    }
+
+    .header__menu {
+        width: 70%;
     }
 
     .header__body {
@@ -1005,5 +1012,19 @@ h3 {
         .footer__privacy-link {
             line-height: 32px;
         }
+    }
+}
+
+@media screen and (max-width: 330px){
+    .product__item-title{
+        display: block;
+        h3{
+            display: block;
+            line-height: 38px;
+        }
+    }
+    .owl-next,
+    .owl-prev{
+        transform: translateX(0);
     }
 }

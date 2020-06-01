@@ -630,7 +630,7 @@ h3 {
   .reviews__content {
     grid-template-columns: 1fr;
   }
-  .owl-nav {
+  .reviews .owl-nav {
     transform: translateY(-190px);
   }
   .offer__content-title {
@@ -684,6 +684,9 @@ h3 {
     margin: 0 auto;
     max-width: 315px;
     min-width: 300px;
+  }
+  .header__menu {
+    width: 70%;
   }
   .header__body {
     padding: 0;
@@ -756,5 +759,18 @@ h3 {
   }
   .footer__privacy .footer__privacy-link {
     line-height: 32px;
+  }
+}
+@media screen and (max-width: 330px) {
+  .product__item-title {
+    display: block;
+  }
+  .product__item-title h3 {
+    display: block;
+    line-height: 38px;
+  }
+  .owl-next,
+  .owl-prev {
+    transform: translateX(0);
   }
 }
