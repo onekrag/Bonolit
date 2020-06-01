@@ -683,7 +683,7 @@ h3 {
     .header__menu {
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: flex-start;
         align-items: flex-start;
         padding-left: 40px;
         position: fixed;
@@ -702,6 +702,7 @@ h3 {
             display: flex;
             flex-direction: column;
             justify-content: space-evenly;
+            margin-bottom: 70px;
             // flex: 1 30%;
             // align-items: center;
             // height: 100%;
@@ -713,8 +714,15 @@ h3 {
 
     }
 
+    .header__phone.active{
+        margin-bottom: 30px;
+    }
+
     .header__menu-list {
-        margin-top: 80%;
+        margin-top: 40px;
+        &:first-child{
+            margin-top: 175px;
+        }
     }
 
     .header__menu.active {
