@@ -28,7 +28,7 @@ $(document).ready(function () {
     // video: true,
     // videoHeight: ,
     // videoWidth: ,
-    center: true,
+    // center: true,
     responsive:{
       480:{
           items:1,          
@@ -37,10 +37,12 @@ $(document).ready(function () {
           items:1,          
       },
       960:{
-          items:2,          
+          items:1,  
+          center: true,        
       },
       1200:{
-          items:2,          
+          items:1,
+                    
       }
   },
   });

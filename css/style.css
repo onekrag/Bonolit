@@ -248,7 +248,8 @@ h3 {
   transform: translateX(15px);
 }
 .reviews .owl-carousel .owl-dots.disabled,
-.reviews .owl-carousel .owl-nav.disabled {
+.reviews .owl-carousel .owl-nav.disabled,
+.reviews .owl-nav {
   display: flex;
   justify-content: space-between;
   padding: 3px;
@@ -569,9 +570,6 @@ h3 {
   .reviews__content {
     grid-template-columns: repeat(2, 1fr);
   }
-  .owl-nav {
-    transform: translateY(-190px);
-  }
   .offer {
     background-position-x: 330%;
     background-position-y: 93%;
@@ -632,9 +630,6 @@ h3 {
   }
   .reviews__content {
     grid-template-columns: 1fr;
-  }
-  .reviews .owl-nav {
-    transform: translateY(-190px);
   }
   .offer__content-title {
     font-size: 38px;
