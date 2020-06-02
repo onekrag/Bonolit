@@ -17,49 +17,68 @@ $(document).ready(function () {
     loop: true,
     dots: false,
     margin: 50,
-  });
-
-  $(".slide__reviews").owlCarousel({
-    autoWidth: true,
-    nav: true,
-    // loop: true,
-    // merge:true,
-    dots: false,
-    margin: 30,
-    video: true,
-    videoHeight: 320,
-    videoWidth: 570,    
     responsive: {
+      320: {
+        items: 1,
+        nav: false,
+      },
       480: {
         items: 1,
         nav: false,
-        videoHeight: 320,
-        videoWidth: 315,
       },
       640: {
         items: 1,
         nav: false,
-        videoHeight: 320,
-        videoWidth: 480,
       },
       960: {
         items: 1,
         nav: false,
-        videoHeight: 320,
-        videoWidth: 670,
       },
       1200: {
-        items: 1,
+        items: 2,
         nav: false,
-        videoHeight: 320,
-        videoWidth: 470,
       },
       1600: {
         items: 2,
-        videoHeight: 320,
-        videoWidth: 570,
       },
+    },
+  });
 
+  $(".slide__reviews").owlCarousel({
+    // autoWidth: true,
+    nav: true,
+    mouseDrag: false,
+    touchDrag: false,
+    // loop: true,
+    dots: false,
+    margin: 30,
+    // video: true,
+    // videoHeight: 320,
+    // videoWidth: 570,    
+    responsive: {
+      320: {
+        items: 1,
+        nav: false,
+      },
+      480: {
+        items: 1,
+        nav: false,
+      },
+      640: {
+        items: 1,
+        nav: false,
+      },
+      960: {
+        items: 1,
+        nav: false,
+      },
+      1200: {
+        items: 2,
+        nav: false,
+      },
+      1600: {
+        items: 2,
+      },
     },
   });
 
